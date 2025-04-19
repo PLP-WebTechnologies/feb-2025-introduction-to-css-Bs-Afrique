@@ -1,0 +1,97 @@
+/* 1. Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* 2. Header styling using ID selector */
+#header {
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* 3. Content section styling using Class selector */
+.content {
+    background-color: white;
+    margin: 20px auto;
+    padding: 2rem;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 4. Image styling */
+.content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.content img:hover {
+    transform: scale(1.02);
+}
+
+/* 5. Footer styling */
+footer {
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* 6. Typography */
+h1, h2 {
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+/* 7. Paragraph styling */
+p {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #e1e1e1;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    line-height: 1.8;
+}
+
+/* 8. Content hover effects */
+.content:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* 9. Media query for better mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .content {
+        margin: 20px 15px;
+        padding: 1.5rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+}
